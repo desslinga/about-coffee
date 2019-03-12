@@ -1,0 +1,44 @@
+// screen sizes
+$screen-sm-min: 576px;
+$screen-md-min: 768px;
+$screen-lg-min: 992px;
+$screen-xl-min: 1220px;
+
+// colors
+$dark-blue: #2A313F;
+$light-cream: #FEF5DE;
+$tan: #CDA56E;
+$tanner: #b28e5c;
+
+// fonts
+$font-main: 'Work Sans', sans-serif;
+
+// animations
+$slow-ease: 0.7s ease all;
+$mid-ease: 0.5s ease all;
+$fast-ease: 0.3s ease all;
+
+
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}

@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/styles.scss';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        Howdy
+        <h1>about <br/> coffee</h1>
       </div>
     );
   }
