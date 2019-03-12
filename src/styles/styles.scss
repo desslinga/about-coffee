@@ -12,11 +12,26 @@ html, body {
   background-color: $light-cream;
 }
 
+.align-center {
+  text-align: center;
+}
+
 #landing {
   margin-top: 10vh;
   height: 90vh;
   & .title {
     margin-top: 30%;
-    text-align: center;
+  }
+  & .btn-big {
+    height: 4rem;
+    width: 60%;
+    border-radius: 2rem;
+    background-color: $tan;
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    &:hover {
+      background-color: $tanner;
+    }
   }
 }
