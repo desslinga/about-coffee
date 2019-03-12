@@ -11,3 +11,12 @@ html, body {
   font-family: $font-main;
   background-color: $light-cream;
 }
+
+#landing {
+  margin-top: 10vh;
+  height: 90vh;
+  & .title {
+    margin-top: 30%;
+    text-align: center;
+  }
+}
