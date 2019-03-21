@@ -18,21 +18,47 @@ html, body {
   float: none;
 }
 
+.coffee-greeting {
+  @extend .align-center;
+  @include sm {
+    text-align: left;
+    & .content {
+      margin-left: 3vw;
+    }
+  }
+  @include md {
+    position: relative;
+    margin-bottom: 0;
+  }
+}
+
 #landing {
   transition: $mid-ease;
   margin-top: 6vh;
   @include sm {
-    margin-top: 28vh;
+    margin-top: 30vh;
   }
   @include md {
-    margin-top: 21vh;
+    margin-top: 23vh;
   }
   @include lg {
     margin-top: 16vh;
   }
   & .coffee-image {
-    width: 90%;
-    margin: 5%;
+    width: 80%;
+    margin: 5% 10% 2vh 10%;
+    @include sm {
+      width: 100%;
+      margin: 0;
+    }
+    @include lg {
+      width: 90%;
+      max-width: 450px;
+      margin: 5% 5% 0 15%;
+    }
+    @include xl {
+      margin-left: 22%;
+    }
   }
   & .btn-big {
     height: 4rem;
@@ -43,8 +69,15 @@ html, body {
     line-height: 3rem;
     font-size: 1.5rem;
     font-weight: 400;
+    //box-shadow: 5px 10px $p-accent-darker;
     &:hover {
       background-color: $p-accent-darker;
+    }
+    @include sm {
+      width: 100%;
+    }
+    @include lg {
+      width: 60%;
     }
   }
 }
