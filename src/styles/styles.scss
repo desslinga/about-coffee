@@ -19,8 +19,17 @@ html, body {
 }
 
 #landing {
-  margin-top: 16vh;
-  height: 84vh;
+  transition: $mid-ease;
+  margin-top: 6vh;
+  @include sm {
+    margin-top: 28vh;
+  }
+  @include md {
+    margin-top: 21vh;
+  }
+  @include lg {
+    margin-top: 16vh;
+  }
   & .coffee-image {
     width: 90%;
     margin: 5%;
