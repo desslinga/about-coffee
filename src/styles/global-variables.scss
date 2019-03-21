@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700|Tenor+Sans');
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+
 // screen sizes
 $screen-sm-min: 576px;
 $screen-md-min: 768px;
@@ -9,9 +12,17 @@ $dark-blue: #2A313F;
 $light-cream: #FEF5DE;
 $tan: #CDA56E;
 $tanner: #b28e5c;
+$brown: #957351;
+$browner: #7C6146;
+
+$p-accent: $brown;
+$p-accent-darker: $browner;
+$p-primary: $light-cream;
 
 // fonts
-$font-main: 'Work Sans', sans-serif;
+//$font-main: 'Work Sans', sans-serif;
+//$font-main: 'Tenor Sans', sans-serif;
+$font-main: 'Reem Kufi', sans-serif;
 
 // animations
 $slow-ease: 0.7s ease all;

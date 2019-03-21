@@ -14,7 +14,7 @@ class App extends React.Component {
               <img className="coffee-image" src={coffeeLanding}/>
             </div>
             <div className="col-12 col-sm-6 align-center">
-              <h1 className="title">about <br/> coffee</h1>
+              <h1 className="title">about<br/>coffee</h1>
               <button className="btn btn-big">
                 ENTER
               </button>
