@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import coffeeLanding from '../assets/coffee.svg';
 
 class Landing extends React.Component {
