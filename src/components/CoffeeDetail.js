@@ -1,9 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 import coffeeLanding from '../assets/coffee.svg';
 
 class Landing extends React.Component {
-
   render() {
     return (
       <div className="container" id="landing">
@@ -13,12 +11,20 @@ class Landing extends React.Component {
           </div>
           <div className="col-12 col-sm-6 col-md-5 coffee-greeting">
             <div className="content">
-              <h1 className="title">about<br/>coffee</h1>
-              <button className="btn btn-big">
-                <Link to="/coffees">
-                  enter
-                </Link>
-              </button>
+              <h2>MACCHIATO</h2>
+              <span>
+              <b>Origin:</b> Italy
+              <br/>
+              <b>Ingredients:</b> Milk, Foam, Espresso
+              <br/>
+              </span>
+              <span className="lighter">
+                sometimes called espresso macchiato,
+                is an espresso coffee drink with a
+                small amount of milk, usually foamed.
+                In Italian, macchiato means "stained"
+                or "spotted".
+              </span>
             </div>
           </div>
         </div>

@@ -39,6 +39,7 @@ html, body {
 }
 
 #landing {
+  overflow-x: hidden;
   transition: $mid-ease;
   margin-top: 6vh;
   @include sm {
