@@ -1,19 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Landing from './Landing';
-import CoffeeList from './CoffeeList';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/styles.scss';
-
+import { BrowserRouter } from 'react-router-dom';
+import Container from './Container';
 
 class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <Switch>
-          <Route path="/" exact component={Landing}/>
-          <Route path="/coffees" exact component={CoffeeList}/>
-        </Switch>
+        <Container/>
       </BrowserRouter>
     );
   }
