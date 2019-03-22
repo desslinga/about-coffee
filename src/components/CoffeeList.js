@@ -4,7 +4,7 @@ import CoffeeItem from './CoffeeItem';
 class CoffeeList extends React.Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container" id="coffee-list">
         <div className="row">
           <div className="col-12">
             <h2>about coffee</h2>

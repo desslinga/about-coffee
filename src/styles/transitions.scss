@@ -1,15 +1,19 @@
 .fade-enter {
-  opacity: 0.01;
+  opacity: 0;
+  margin-top: 10px;
   &.fade-enter-active {
     opacity: 1;
-    transition: opacity 300ms ease-in;
+    margin-top: 0px;
+    transition: $slow-ease;
   }
 }
 
 .fade-exit {
   opacity: 1;
+  margin-top: 0px;
   &.fade-exit-active {
-    opacity: 0.01;
-    transition: opacity 300ms ease-in;
+    opacity: 0;
+    margin-top: 10px;
+    transition: $mid-ease;
   }
 }

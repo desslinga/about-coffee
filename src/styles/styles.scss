@@ -1,6 +1,7 @@
 @import './global-variables.scss';
 @import './fonts.scss';
 @import './transitions.scss';
+@import './coffee-list.scss';
 
 * {
 -webkit-box-sizing: border-box;
@@ -11,6 +12,8 @@ box-sizing: border-box;
 html, body {
   font-family: $font-main;
   background-color: $light-cream;
+  color: $p-accent;
+  font-size: 14px;
 }
 
 .align-center {
@@ -99,7 +102,7 @@ html, body {
 }
 
 .route-section {
-  postion: absolute;
+  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
