@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Landing from './Landing';
 import CoffeeList from './CoffeeList';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,10 +10,10 @@ class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <div>
+        <Switch>
           <Route path="/" exact component={Landing}/>
           <Route path="/coffees" exact component={CoffeeList}/>
-        </div>
+        </Switch>
       </BrowserRouter>
     );
   }
