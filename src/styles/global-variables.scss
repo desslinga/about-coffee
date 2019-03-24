@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700|Tenor+Sans');
 @import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,700');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,700');
 
 // screen sizes
 $screen-sm-min: 576px;
@@ -24,8 +27,10 @@ $p-primary: $light-cream;
 // fonts
 //$font-main: 'Work Sans', sans-serif;
 //$font-main: 'Tenor Sans', sans-serif;
-$font-main: 'Reem Kufi', sans-serif;
-
+//$font-main: 'Reem Kufi', sans-serif;
+//$font-main: 'Roboto Mono', monospace;
+//$font-main: 'Muli', sans-serif;
+$font-main: 'Nunito', sans-serif;
 // animations
 $slow-ease: 0.7s ease all;
 $mid-ease: 0.5s ease all;

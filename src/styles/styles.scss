@@ -34,7 +34,7 @@ html, body {
   }
   @include md {
     position: relative;
-    margin-bottom: 0;
+    margin-bottom: 15px;
   }
 }
 
@@ -43,13 +43,13 @@ html, body {
   transition: $mid-ease;
   margin-top: 6vh;
   @include sm {
-    margin-top: 30vh;
+    margin-top: 28vh;
   }
   @include md {
-    margin-top: 23vh;
+    margin-top: 21vh;
   }
   @include lg {
-    margin-top: 16vh;
+    margin-top: 14vh;
   }
   & .exit {
     margin-top: 50vh;

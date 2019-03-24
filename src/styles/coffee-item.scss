@@ -1,5 +1,6 @@
 .coffee-item {
   margin: 15px;
+  transition: $fast-ease;
   /*
   &:hover {
     -webkit-box-shadow: 4px 4px 18px 2px rgba(219,153,109,1);
@@ -7,4 +8,8 @@
     box-shadow: 4px 4px 18px 2px rgba(219,153,109,1);
     transition: $fast-ease;
   }*/
+  &:hover {
+    transition: $fast-ease;
+    margin-top: 10px;
+  }
 }
