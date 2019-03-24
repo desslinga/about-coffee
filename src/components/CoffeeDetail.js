@@ -1,5 +1,5 @@
 import React from 'react';
-import coffeeLanding from '../assets/coffee.svg';
+import coffeeLanding from '../assets/coffee.png';
 
 class Landing extends React.Component {
   render() {

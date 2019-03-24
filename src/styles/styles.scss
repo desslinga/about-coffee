@@ -81,6 +81,7 @@ html, body {
     line-height: 4rem;
     font-size: 1.5rem;
     font-weight: 400;
+    transition: $fast-ease;
     & a {
       color: $p-primary;
       text-decoration: none;
@@ -89,6 +90,7 @@ html, body {
       height: 100%;
     }
     &:hover {
+      transition: $fast-ease;
       background-color: $p-accent-darker;
     }
     @include sm {
